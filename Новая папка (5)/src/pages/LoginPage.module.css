@@ -1,0 +1,215 @@
+.container {
+  display: flex;
+  max-width: 880px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.logo {
+  width: 18px;
+  height: auto;
+  margin-left: 160px;
+  margin-top: -150px; 
+}
+
+.techPro {
+  font-family: Maximus, sans-serif;
+  font-weight: 800;
+  font-size: 8px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+  margin-right: 160px;
+  white-space: nowrap;
+  margin-top: -150px; 
+  margin-left: 5px;
+}
+
+.image-section {
+  height: 660px;
+  width: 540px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-inner {
+  width: 95%;
+  height: 90%;
+  border-radius: 28px;
+  background-image: url("/login_photo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-section {
+  flex: 1;
+  padding: 1.5rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 460px;
+  width: 100%;
+  position: relative;
+  right: 0;
+}
+
+.h1 {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+
+.p {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 0.3rem;
+  color: #656565;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.input {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 0.8rem;
+}
+
+.password-input {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.remember-me {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.remember-me-input {
+  margin-right: 4px;
+  width: 14px;
+  height: 18px;
+}
+
+.forgot-password {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #888;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0;
+  padding: 0.7rem;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 0.8rem;
+}
+
+.login-button:hover {
+  background: #333;
+}
+
+.signup {
+  position: relative;
+  top: 80px; 
+  text-align: center;
+}
+
+.signup-p {
+  font-family: 'LT Superior', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.signup-a {
+  color: #000;
+  text-decoration: none;
+}
+
+.signup-a:hover {
+  text-decoration: underline;
+}

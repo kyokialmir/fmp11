@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/lt-superior');
+
+.statistics {
+  width: 872.6068115234375px;
+  height: 376.9016418457031px;
+  border-radius: 19px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+}
+
+.statistics-header {
+  width: 846px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.statistics-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17.13px;
+}
+
+
+.statistics-title {
+  color: var(--Primary-text, #000);
+text-align: center;
+font-family: "LT Superior";
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.statistics-icon {
+  display: flex;
+  width: 37.195px;
+  height: 37.195px;
+  padding: 8.563px 10.704px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.704px;
+  border-radius: 7.492px;
+  opacity: 0.8;
+  background: var(--Secondary-frame, #F0F0F0);
+}
+
+.statistics-date {
+  display: flex;
+  height: 52px;
+  padding: 9px 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  color: var(--Primary-text, #000);
+  text-align: center;
+  font-family: "LT Superior";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+
+.statistics-dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute
+}
+
+.statistics-container{
+  position: relative;
+  z-index: 1;
+}
